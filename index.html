@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href=".\style.css">
+    <script defer src=".\Assets\webApls.js"></script>
+    <title>Quiz App</title>
+</head>
+<header>
+    <h1 class="page-title">Timed quiz</h1>
+    <p> Its a timed quiz ,You can start,Green for correct answer </p>
+    <p> green background- correct, red - wrong</p>
+</header>
+
+<body>
+
+    <button class="btn">time </button>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <P you are about to statr a quiz></P>
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+    </div>
+</body>
+
+</html>
